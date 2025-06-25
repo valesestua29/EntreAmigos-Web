@@ -1,6 +1,6 @@
 # FrontEndTT-web
 
-¡Bienvenido al repositorio **FrontEndTT-web**!  
+¡Bienvenido al repositorio **EntreAmigos-web**!  
 Este proyecto se esta desarrollado como parte de prácticas de front-end de TalentoTech, utilizando tecnologías fundamentales como HTML, CSS y JavaScript. El objetivo principal es aplicar y demostrar habilidades en diseño responsivo y animaciones, creando interfaces de usuario atractivas y funcionales.
 
 ## 🧩 Descripción
