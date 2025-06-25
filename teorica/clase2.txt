@@ -1,0 +1,118 @@
+--------------- 2. Listas, Rutas, Multimedia, Tablas ---------------------
+
+Listas ---------
+
+    Se utilizan para agrupar elementos relacionados de manera ordenada o desordenada. 
+    Existen tres tipos principales de listas en HTML
+
+    Ordenadas <ol>
+    Desordenadas <ul>
+    De Definición <dt>
+
+    Para cada item de la lista se utiliza <li></li>
+
+
+Enlaces --------
+
+    Los enlaces, también conocidos como "links", son fundamentales para navegar en la web. 
+    Permiten a los usuarios moverse entre páginas y recursos.
+
+
+    Enlaces a otras páginas o sitios web
+        <a href="https://www.ejemplo.com">Visita nuestro sitio web</a>
+
+    Enlaces a direcciones de correos electrónicos
+        <a href="mailto:info@ejemplo.com">Enviar correo</a>
+    
+    Enlaces a archivos
+        <a href="documento.pdf" download>Descargar documento</a>
+
+
+    ---- Rutas absolutas y relativas ----
+
+    Rutas absolutas
+        Especifica la ubicación completa de un archivo desde la raíz del servidor.
+        Comienza con "http://" o "https://" y dirige a sitios web externos
+
+    Rutas relativas
+        Se basa en la ubicación del archivo HTML actual. Es más flexible, ya que se adapta a cambios 
+        en la estructura de las carpetas.
+
+
+Elementos en linea y en bloque ----------
+
+    Elementos en bloque
+
+        Empiezan en una nueva línea de código y ocupan todo el ancho disponible. 
+        Suelen usarse para estructurar secciones completas de contenido.
+
+        <header>, <nav>, <main>,<section>,<footer> Etiquetas semánticas estructurales.
+        <div>: Contenedor genérico para agrupar elementos.
+        <h1> - <h6>: Encabezados de diferentes niveles.
+        <p>: Define un párrafo.
+        <ul> y <ol>: Listas, sean ordenadas o desordenadas.
+
+
+    Elementos en línea
+
+        Se utilizan para definir partes de un texto o elementos pequeños. 
+        No implican un salto de línea en el código.
+
+        <span>: Un contenedor genérico para agrupar texto.
+        <a>: Enlaces.
+        <strong>: Aplica al texto el estilo negrita.
+        <em>: Aplica al texto el estilo cursiva.
+
+
+Multimedia ----------
+
+    Inserción de Imágenes
+        <img src="imagen.jpg" alt="Descripción de la imagen" width="600" height="400">
+
+    Inserción de Audio
+        <audio controls> 
+            <source src="audio.mp3" type="audio/mpeg"> Tu navegador no soporta la reproducción de audio. 
+        </audio>
+
+    Inserción de Video
+
+        <video controls poster="preview.jpg" width="600" height="400">
+            <source src="video.mp4" type="video/mp4"> Tu navegador no soporta la reproducción de video.
+        </video>
+
+    Uso de Iframes
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        width="560" height="315" frameborder="0" allowfullscreen></iframe>
+
+    
+Tablas ---------
+
+    Las tablas en HTML se construyen utilizando la etiqueta <table>.
+    Dentro de esta, se definen las filas con <tr> y las celdas con <td> para datos normales o <th> para encabezados.
+
+    ejemplo
+
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>25</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>30</td>
+                <td>Barcelona</td>
+            </tr>
+        </table>
+
+
+
+ 
+
+
+

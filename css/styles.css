@@ -1,0 +1,280 @@
+/* TIPOGRAFIAS */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0ebe6;
+}
+
+
+/* ------ Header ------- */
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff0dc;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1{
+    width: 120px;
+    margin: 5px 0px 0px 3.125rem;
+}
+
+.nav-bar{
+    display: flex;
+    list-style-type: none;
+    gap: 3.75rem;
+    flex-wrap: wrap;
+    margin-right: 3.125rem;
+    align-items: center;
+}
+
+.nav-bar li {
+    margin: 0;
+    padding: 5px;
+}
+
+.nav-bar li a{
+    color:#2c2c2c;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 5px ;
+}
+
+
+/* ------ FOOTER ------- */
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffe8c9;        /* Aplica color al fondo del nav */
+    justify-content: space-between;     /* Mueve el contenido */
+    padding: 0rem, 1.875rem;
+    align-items: center;
+}
+
+.info-footer,
+.redes-footer{
+    padding: 0.625rem;
+    margin: 10px 100px 30px 100px;
+}
+
+.info-footer p{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.info-footer div{
+    display: flex;
+    margin: 10px;
+}
+
+.info-footer div p{
+    font-size: 14px;
+}
+
+.logo3{
+    width: 150px;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+
+/* ------- Imagen y titulos principales ------- */
+
+.cont-imagen-titulo{
+    margin-bottom: 70px;
+}
+
+.imagen-principal{
+
+    width: 100%;
+    height: auto;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}   
+
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor1 h1{
+
+    margin:100px 100px 10px 50px;
+
+    color: #ffffff; 
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    padding: 5px ;
+
+}
+
+.contenedor1 h2 {
+
+    margin:10px 100px 20px 70px;
+    color:#ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+.cont-button{
+    margin: 10px 100px 20px 70px;
+}
+
+.cont-button a button {
+
+    color: #6b742c;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    padding: 15px;
+    
+}
+
+
+/* ----- BODY PAGPINCIPAL ------*/
+
+.cuerpo-pag{
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo2{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.cuerpo-pag h3{
+    margin: 10px;
+    font-family: "Lato";
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.cuerpo-pag article p {
+    margin: 20px;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contenedor2{
+    margin-top: 30px;
+    background: #4eaede;
+    background: linear-gradient(305deg,rgba(78, 174, 222, 0.651) 10%, rgba(176, 222, 78, 0.664) 41%, rgba(242, 204, 90, 0.603) 65%, rgba(252, 146, 201, 0.623) 87%);
+    border-radius: 30px 30px 30px 30px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contenedor2 div{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.contenedor2 div h3 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contenedor2 div p {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.cont-lista {
+    margin: 15px;
+}
+
+.cont-lista ul li {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.cont-ubic{
+    margin: 50px;
+    padding: 20px;
+    background-color: lightgray;
+    width: 100%;
+}
+
+.titl {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.cont-ubic div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cont-ubic div ul {
+    list-style-type: none;
+}
+
+.cont-ubic div ul li {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* si también querés centrar verticalmente */
+}
+
+.icon-mano{
+    width: 30px;
+}
+
+
+

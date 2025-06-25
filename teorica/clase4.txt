@@ -1,0 +1,32 @@
+---------------- 4. Introducción a CSS -----------------
+
+
+Incorporar CSS ---- 
+
+    En el archivo html: <link rel="stylesheet" href="ruta">   
+
+
+Selectores basicos ----
+
+    selector universal "*" : aplica a todos los elementos del html
+    selector de etiquetas "nombreEtiqueta" : aplica a todas las etiquetas con ese nombre ej: h1
+    selector de clases ".nombreClase": aplica a todas las etiquetas con el nombre de clase definido ej: .nombreClase
+    selector de Id "#nombreID" : aplica a todas las etiquetas con el selector ID ej :  #nombreId
+
+
+Especificidad en css ----
+
+    Css utiliza un sistema de especificidad y cascada para decidir cuál es la indicación de mayor jerarquía 
+    que se aplicará sobre otras reglas que también estén operando.
+
+    1- Estilos en linea: mayor prioridad, aplicado directamente en el elemento html
+    2- ID : segunda prioridad, selecciona elementos unicos #Id
+    3- clase: tercera prioridad, selecciona grupos de elementos .clase
+    4- etiqueta: menor prioridad, selecciona todos los elementos de un tipo.
+
+    
+
+
+
+
+

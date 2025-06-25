@@ -1,0 +1,68 @@
+--------------- 3. Formularios y subida al servidor ---------------------
+
+// Orden de estructuras
+
+    <nav> </nav> para la barra de navegacion
+    <header> </header> para la cabecera del sitio
+    <main> </main> contenido principal
+    <footer> </footer> pie de pagina
+
+----- Formularios ------
+
+    Es una version digital de un formulario en papel donde el usuarios
+    ingresa datos que luego se envian a un servidor para su procesamiento.
+
+    Estructura ----- 
+
+        Etiqueta <form> agrupa campos como texto, correo y mensaje, junto con un botón para enviar la información al servidor.
+        
+        Atributos
+            action: define la url a la que se enviaran los datos
+            method: especifica el metodo de envio de datos.
+
+
+    Campos basicos -----
+
+        label: se utiliza para etiquetar un campo de formulario
+            <label for="nombre">Nombre:</label>    
+
+        input: son los campos de entradas de datos. "text" "email" "password" "number" "checkbox" "submit"
+
+        textarea: campo para ingresar texto en multiples lineas
+            <textarea name="mensaje" rows="4" cols="50"></textarea>
+
+        select: menu desplegable para seleccionar una opcion 
+            <select name="opciones">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+            </select>
+
+
+    Validaciones ------
+
+        required: hace que el campo sea obligatorio
+        minlength/maxlength: define la long minima y maxima del texto
+        pattern: define una expresion regular para la validacion 
+
+
+    Formspree ------
+        
+        Es un servicio que envia formularios sin configurar un servidor, 
+        usando su URL en el atributo action del formulario.
+
+        1- Registro https://formspree.io/
+        2- crear un form
+        3- confuracion
+        4- prueba
+
+        Entro a la pagina - +addNew - +NewForm - CreateForm
+
+    Subida al servidor -------
+
+        netligy: plataforma de hosting simple
+        github pages: hosting gratuito para proyectos en github
+
+    
+
+
+

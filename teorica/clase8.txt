@@ -1,0 +1,101 @@
+---------------- 8. Git y Github -----------------
+
+
+Git -----
+
+    Es un sistema de control de versiones Git permite guardar versiones de tu proyecto a lo largo del tiempo. 
+    
+    Permite:    
+        Recuperar versiones anteriores del proyecto si algo sale mal.
+        Facilitar la colaboración sin conflictos entre desarrolladores.
+
+GitHub -----
+
+    GitHub es un servicio web que aloja repositorios Git. Utilizada comúnmente como una red social de desarrolladores y portafolio profesional. 
+
+    Permite
+
+        Subir, compartir código y colaborar con desarrolladores de todo el mundo.
+        Podés colaborar en proyectos, subir cambios y ver el progreso que va teniendo tu proyecto a lo largo del tiempo
+
+
+    Configuracion inicial
+
+        git config --global user.name "TuNombre"
+        git config --global user.email "tuemail@ejemplo.com"
+
+        Esto le dice a Git cuál es tu nombre y tu email para que puedas hacer commits (que son como "guardados" o "versiones").
+
+    Conceptos claves
+
+        Repositorio: Espacio donde se guarda todo el proyecto y su historial. Puede ser local (almacenado en tu computadora) o remoto (en GitHub).
+        Branch: Permite probar cambios en el código sin afectar lo que ya funciona. Si el resultado es satisfactorio, se puede unir a la rama principal (generalmente main o master).
+        Commit: Guarda el estado actual del proyecto, registrando los cambios realizados como una "foto" en el tiempo
+        Merge: Proceso de unir dos ramas. Después de probar algo nuevo en una rama, se puede unir al código principal mediante un merge
+
+    Comandos basicos de git
+
+        git init: Inicializa un nuevo repositorio en la carpeta actual. Esto crea un .git, que es la carpeta donde se guardan todos los cambios que vas a realizar
+        git add: Este comando selecciona los archivos que querés "guardar". Podés agregar archivos específicos o todo de una, con: git add .
+        git commit: Crea un "snapshot" de los archivos agregados y guarda un mensaje descriptivo de los cambios.git commit -m "Mensaje descriptivo de los cambios"
+        git push: Sube los commits de tu repositorio local a uno remoto en GitHub. git push origin main
+
+    Crear ramas en git
+
+        Una rama (branch) es una línea paralela de desarrollo que te permite trabajar en nuevas funcionalidades, arreglos o pruebas sin modificar la rama principal. 
+        Podés fusionar (merge) los cambios de tu rama con la rama principal si todo funciona correctamente
+
+        Comandos para crear una nueva rama
+
+            git checkout -b nombre-de-la-rama
+            git checkout -b crea una nueva rama y cambia automáticamente a esa rama.
+            
+            Reemplazá nombre-de-la-rama con un nombre descriptivo para la rama, como
+            feature-nueva-funcionalidad o bugfix-corregir-bug.
+
+        Hacer cambios en la nueva rama
+
+            Podés realizar todos los cambios necesarios en una rama sin afectar el resto del proyecto. Modifica el código, agregá archivos, y asegurate de hacer commits 
+            regularmente para registrar tus cambios.
+        
+        Subir la rama al repositorio
+
+            git push origin nombre-de-la-rama
+
+        
+        Fusionar ramas (Merge)
+
+            Cambiar a rama principal: Usa 'git checkout main' para volver a la rama principal.
+            Realizar el merge: Ejecuta 'git merge nombre-rama' para fusionar los cambios.
+            Eliminar la Rama (Opcional): Una vez que la rama ha sido fusionada y no se usa más, podés eliminarla
+                Comando: git branch -d nombre-de-la-rama
+            
+            Si durante un merge Git detecta conflictos entre tu rama y la principal, deberás resolverlos manualmente. 
+            Git señalará en el archivo afectado dónde están los conflictos, y tendrás que decidir qué cambios conservar.
+
+
+    Flujo de trabajo con Git y GitHub
+
+        Inicio de una nueva tarea:
+            git checkout -b feature-nueva-funcionalidad
+
+        Realizar cambios y registrarlos en la rama mediante commits:
+            git add .
+            git commit -m "Agregada nueva funcionalidad"
+
+        Subida de cambios:
+            git push origin feature-nueva-funcionalidad.
+
+        Finalización: Fusionás los cambios
+            git checkout main
+            git merge feature-nueva-funcionalidad
+
+        Eliminás la rama si ya no es necesaria:
+            git branch -d feature-nueva-funcionalidad
+
+
+
+
+
+
+            

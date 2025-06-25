@@ -1,0 +1,78 @@
+---------------- 6. Modelo de Caja, Posicionamiento y Flexbox -----------------
+
+Modelo de Caja ----
+
+    content :   contenido dentro del box (zapatos)
+    padding :   espacio entre el contenido y el box (zapatos e interior de su caja)
+    border :    borde del box (caja de carton)
+    margin :    espacio fuera del box  (caja y mundo)
+
+
+    Propiedades claves
+
+        Width y Height: definen el ancho y el alto del contenido del elemento
+        Padding: controla el espacio entre el contenido y el borde
+        Border: define el borde alrededor del relleno del elemento
+        Margin: establece el espacio exterior alrededor del borde del elemento
+
+    Tipos de bordes
+
+        Hidden: oculto
+        Dotted: basado en puntos
+        Dashed: basado en rayas
+        Solid: linea continua
+        Double: dos lineas continuas
+        Groove: biselado con luz desde arriba
+        Ridge: biselado con luz desde abajo
+        Inset: profundidad hacia adentro
+        Outset: profundidad hacia afuera
+
+
+Posicionamiento -----
+
+    Static: por defecto, elementos en su flujo natural del documento
+    Relative: desplaza el elemento respecto a su posicion original
+    Absolute: Posiciona el elemento relativo al contenedor mas cercano
+        Lo ideal es ponerlo dentro de un contenedor absoluto
+    Fixed: fija el elemento en relacion al viewport
+    Sticky: combina caracteristicas de relative y fixed
+
+
+Flexbox -----
+
+    Flexbox es un modelo de diseño para crear layouts flexibles y dinámicos. Ideal para crear diseños de una sola dimensión, 
+    ya sea en un eje horizontal (filas) o vertical (columnas).
+
+    Conceptos basicos de Flexbox
+
+        Contenedor flex | display:flex
+            Elemento padre que contiene los items flexibles
+        
+        items  
+            Elementos a distribuir contenidos dentro de un contenedor
+
+        ------------------------------------
+        Propiedades para el contenedor padre
+
+            flex-direction: row;    // indica que va a ser una direccion principal horizontal
+            flex-direction: column  // indica que va a ser una direccion principal vertical
+            flex-wrap: wrap         // permite que los elementos pasen a la siguiente linea si no caben en su lugar
+            justify-content:        // alinea los elementos en el eje-direccion principal 
+                flex-start ;        // alinea los items al inicio (derecha) del contenedor
+                flex-end ;          // alinea los items al final (izquierda) del contenedor
+                center ;            // centra los items en el contenedor
+                space-between ;     // distribuye los items uniformemente con espacio entre ellos 
+                space-around ;      // distribuye los items asignando espacios iguales al rededor de cada items
+                space-evely ;       // distribuye los items con espacios iguales entre ellos y los bordes del contenedor
+            aling-items:            // alinea los items a lo largo del eje secundario
+                flex-start;         // alinea los items al inicio (arriba) del contendor
+                flex-end;           // alinea los items al final (abajo) del contendor
+                center;             // centra verticalmente los items en el contenedor
+                stretch;            // alinea los items ocupando todo el alto del contendor
+                baseline;           // alinea los items  
+        
+        Propiedades para el item del contendor
+            
+            flex-grow: ;            // permite que un ítem crezca para ocupar el espacio disponible. Un valor de 1 significa que el ítem puede crecer para llenar el espacio.
+            flex-shrink: ;          // permite que un ítem se encoja si es necesario. Un valor de 0 significa que el ítem no se encogerá
+            flex-basis: ;           // establece el tamaño inicial del ítem antes de distribuir el espacio. Puede ser un valor fijo (como px, em, %) o auto.

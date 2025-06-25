@@ -1,0 +1,36 @@
+HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. 
+HTML corresponde a la estructura principal de todas las páginas y sitios web.
+
+
+Etiquetas Semánticas Estructurales
+
+    <header>    // Encabezado de página o sección. Incluye logotipos, títulos y navegación.
+    <nav>       // Sección de navegación con enlaces.
+    <main>      // Contenido principal del documento.
+    <footer>    // Pie de página con derechos de autor y contactos.
+    <section>   // Sección temática que agrupa elementos relacionados.
+    <article>   // Contenido independiente, como un artículo o noticia.
+    <aside>     // Información adicional, como anuncios o enlaces secundarios.
+
+
+Etiquetas Básicas más comunes en HTML
+
+    Encabezados (<h1> - <h6>)
+    Párrafos (<p>)
+    Negrita (<strong>)
+    Itálica (<em>)
+    Tachado (<s>)
+
+
+Estructura principal
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    </body>
+    </html>

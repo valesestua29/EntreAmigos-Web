@@ -1,0 +1,41 @@
+---------------- 7. Grid y Media Queries -----------------
+
+CSS Grid ----- 
+
+    CSS Grid Layout: Permite organizar el contenido de una página web en una cuadrícula (grid) de filas y columnas.
+
+    Implementación Básica de Grid
+
+        contenedor grid: se define en el elemento del contenedor
+            display: grid;
+        definicion: se espcifican las columnas y filas
+            grid-template-colums: repeat(x,1fr);  //crea x columnas del mismo ancho
+            grid-template-rows:  repeat(y,1fr);   //crea y filas del mismo ancho
+            gap-row: ;      // es la separacion entre filas
+            gap-column: ;   // es la separacion entre columnas
+
+
+Medias Queries -----
+
+    Permiten aplicar estilos según características del dispositivo, como el ancho o la orientación de la pantalla.
+
+    Breakpoints comunes:
+        Hasta 600px: Celulares y dispositivos pequeños.
+        600px - 768px: Tablets en modo vertical.
+        768px - 992px: Tablets en modo horizontal y laptops pequeñas.
+        992px - 1200px: Laptops y monitores estándar.
+        Más de 1200px: Monitores grandes.
+
+    // Estilos para pantallas pequeñas (menos de 600px)
+    @media only screen and (max-width: 600px){ --- }
+
+    // Estilos para pantallas medianas (mas de 768px)
+    @media only screen and (min-width: 768px)
+
+
+
+
+
+
+
+
