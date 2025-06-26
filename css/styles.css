@@ -162,11 +162,11 @@ footer{
 }
 
 
-/* ----- BODY PAGPINCIPAL ------*/
+/* ----- BODY PAG-PINCIPAL ------*/
 
 .cuerpo-pag{
-    margin-left: 3.125rem;
-    margin-right: 3.125rem;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -275,6 +275,138 @@ footer{
 .icon-mano{
     width: 30px;
 }
+
+
+/* ------ PAG - PIJAMAS --------- */
+
+/* ------ PAG - SobreNosotros ------- */
+
+.img-principal {
+
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.titulos{
+    font-family: "Lato";
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.subtitulos {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.texto-gral{
+    font-family: "Lato";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+
+    text-align: justify;
+    line-height: 1.6em;
+    padding-top: 10px;
+    margin: 20px 10px 70px .625rem;
+    
+}
+
+.texto-video{
+    font-family: "Lato";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+
+    text-align: justify;
+    line-height: 1.6em;
+    padding-top: 10px;
+    margin: 20px 10px 70px .625rem;
+}
+
+.cont-video-texto {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+    padding: 10px;
+    background-color: rgb(212, 226, 162);
+}
+
+.video1{
+    width: 18%;
+    margin: 25px;
+}
+
+
+
+/*--------------------------------------*/
+
+/*--- Galerias de imagenes ---*/
+
+
+.galeria div{
+    position: relative;
+}
+
+.galeria{
+    margin-top: 4.6875rem;
+    margin-bottom: 1.5625rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap: .125rem;
+    grid-row-gap: .125rem;
+
+    grid-template-areas: 
+    "div1 div1 div2 div3"
+    "div4 div5 div6 div3";
+
+}
+
+.div1{ grid-area: div1;}
+.div2{ grid-area: div2;}
+.div3{ grid-area: div3;}
+.div4{ grid-area: div4;}
+.div5{ grid-area: div5;}
+.div6{ grid-area: div6;}
+
+.galeria img{
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*--------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
