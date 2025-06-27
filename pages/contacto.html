@@ -25,46 +25,77 @@
             </nav>
         </header>
 
-        <main>
+        <main >
+            <div class="cuerpo-pag">
+                <section>
+                    <h1 class="titulos"> NO DUDES EN CONSULTARNOS !</h1>
+                    <h2 class="subtitulos"> Solicita tu presupuesto sin cargo por el medio que prefieras</h2>
 
-            <div>
+                    <div class="contenedor-icon">
+                        <ul class="icon-redes-contacto">
+                            <li> <a href="#"> <img class="icono-redes2" src="../assets/img/icon-redes/8.png"> </a> </li>
+                            <li> <a href="#"> <img class="icono-redes2" src="../assets/img/icon-redes/9.png"> </a> </li>
+                            <li> <a href="#"> <img class="icono-redes2" src="../assets/img/icon-redes/5.png"> </a> </li>
+                            <li> <a href="#"> <img class="icono-redes2" src="../assets/img/icon-redes/4.png"> </a> </li>
+                            <li> <a href="#"> <img class="icono-redes2" src="../assets/img/icon-redes/7.png"> </a> </li>
+                        </ul>
+                    </div>
+                </section>
 
-                <h1> NO DUDES EN CONSULTARNOS !</h1>
-                <h2> Solicita tu presupuesto sin cargo por el medio que prefieras</h2>
+                <div class="cont-form">
+                    <form class="formulario" action="https://formspree.io/f/mrbqnepa" method="POST"> 
 
-                <div>
-                    <ul>
-                        <li> <a href="#"> <img src="../Assets/"> Whatsapp </a> </li>
-                        <li> <a href="#"> <img src="../Assets/"> Email </a> </li>
-                        <li> <a href="#"> <img src="../Assets/"> DM Instagram</a> </li>
-                        <li> <a href="#"> <img src="../Assets/"> DM Facebook</a> </li>
-                        <li> <a href="#"> <img src="../Assets/"> DM LinkedIn</a> </li>
-                    </ul>
+                        <div class="contenedor-datos-form">
+                            <div>
+                                <p class="texto-cont"> 
+                                    <label class="texto-form" for="nombre">
+                                        Nombre <br>
+                                        <input type="text" placeholder="Ingrese su nombre">
+                                    </label>
+                                </p>
+
+                                <p class="texto-cont"> 
+                                    <label class="texto-form" for="email">
+                                        Email <br> 
+                                        <input type="email" name="email" id="email" required placeholder="email@ejemplo.com">
+                                    </label>
+                                </p>
+
+                                <br>
+
+                                <p class="texto-cont"> 
+                                    <label class="texto-form" for="nombreAgasajado"> 
+                                        Nombre del agasajado <br>
+                                        <input type="text" name="nombreAgasajado" id="nombreAgasajado" required placeholder="Nombre Ejemplo">
+                                    </label>
+                                </p>
+
+                                <p class="texto-cont"> 
+                                    <label class="texto-form" for="fechaEvento"> 
+                                        Fecha de festejo <br>
+                                        <input type="date" name="fechaEvento" id="fechaEvento" required placeholder="dd/mm/yyyy">
+                                    </label>
+                                </p>
+                            </div>
+
+                            <div>
+                                <img class="img-form" src="../assets/img/imag/img-form.png">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <p class="caja-comentario" id="tex-cont"> 
+                            <label class="texto-form" for="mensaje"> 
+                                Contanos un poco más <br>
+                                <textarea name="mensaje" id="mensaje" required placeholder="Escribe tu comentario"></textarea>
+                            </label>
+                        </p>
+                        
+
+                        <input class="boton-enviar" type="submit" value="ENVIAR">
+                    </form>
                 </div>
-            </div>
-
-            <div>
-                <form action="https://formspree.io/f/mrbqnepa" method="POST"> 
-                        
-                    <label for="nombre">Nombre: </label>
-                    <input type="text" name="nombre" id="nombre" required placeholder="Nombre Ejemplo">
-
-                    <label for="email">Email: </label>
-                    <input type="email" name="email" id="email" required placeholder="email@ejemplo.com">
-                        
-                    <br>
-                    <label for="nombreAgasajado"> Nombre del agasajado: </label>
-                    <input type="text" name="nombreAgasajado" id="nombreAgasajado" required placeholder="Nombre Ejemplo">
-                        
-                    <label for="fechaEvento"> Fecha de festejo: </label>
-                    <input type="date" name="fechaEvento" id="fechaEvento" required placeholder="dd/mm/yyyy">
-
-                    <br>
-                    <label for="mensaje"> Contanos un poco más </label>
-                    <textarea name="mensaje" id="mensaje" required placeholder="Escriba su comentario"></textarea>
-
-                    <input type="submit" value="Enviar">
-                </form>
             </div>
         </main>
 

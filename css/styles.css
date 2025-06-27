@@ -55,13 +55,11 @@ header{
 
 /* ------ FOOTER ------- */
 
-
 footer{
     display: flex;
     flex-direction: row;
-    background-color: #ffe8c9;        /* Aplica color al fondo del nav */
-    justify-content: space-between;     /* Mueve el contenido */
-    padding: 0rem, 1.875rem;
+    background-color: #ffe8c9;        
+    justify-content: space-between;     
     align-items: center;
 }
 
@@ -131,7 +129,6 @@ footer{
 }
 
 .contenedor1 h1{
-
     margin:100px 100px 10px 50px;
 
     color: #ffffff; 
@@ -141,18 +138,15 @@ footer{
     font-style: normal;
     text-decoration: none;
     padding: 5px ;
-
 }
 
 .contenedor1 h2 {
-
     margin:10px 100px 20px 70px;
     color:#ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
     font-weight: 400;
     font-style: italic;
-
 }
 
 .cont-button{
@@ -160,7 +154,6 @@ footer{
 }
 
 .cont-button a button {
-
     color: #6b742c;
     font-family: "Lato", sans-serif;
     font-weight: 600;
@@ -287,13 +280,36 @@ footer{
 
 /* ------ PAG - PIJAMAS --------- */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------ PAG - SobreNosotros ------- */
 
 .img-principal {
-
     width: 100%;
     height: auto;
     background-position: center;
+}
+
+.icon-titulo{
+    margin-bottom: 50px;
 }
 
 .titulos{
@@ -303,7 +319,7 @@ footer{
     margin-left: 10px;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 50px;
+    
 }
 
 .subtitulos {
@@ -355,7 +371,6 @@ footer{
 }
 
 
-
 /*--------------------------------------*/
 
 /*--- Galerias de imagenes ---*/
@@ -397,17 +412,98 @@ footer{
 
 /*--------------------------------------*/
 
+/* ------ PAG - Contacto -------- */
+
+.contenedor-icon{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;     
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 4.6875rem;
+}
+
+.icon-redes-contacto {
+    display: flex;
+    list-style-type: none;
+    gap: 3.75rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icono-redes2{
+    width: 75px;
+}
 
 
+.texto-form{
+    font-family: "Lato";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px;
+}
 
+.formulario{
+    background: #4eaede;
+    background: linear-gradient(305deg, rgba(78, 174, 222, 0.55) 10%, rgba(176, 222, 78, 0.52) 41%, rgba(242, 204, 90, 0.5) 65%, rgba(252, 146, 201, 0.5) 87%);
+    border-radius: 30px 30px 30px 30px;
+    overflow: hidden;
+    padding: 20px;
 
+    width: 600px;
+    height: 600px;
+}
 
+.contenedor-datos-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
 
+.formulario p label input{
+    width: 300px;
+    height: 25px;
+    padding: 15px;
+    margin:5px;
+    border-radius: 30px 30px 30px 30px;
+}
 
+.formulario p label textarea{
+    width: 450px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 30px 30px 30px 30px;
 
+    margin-top: 10px;
+}
 
+.img-form{
+    width: 150px;
+}
 
+.caja-comentario{
+    font-family: "Lato";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
+.boton-enviar {
+    padding: 10px 50px;
+    margin-right: 70px;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 10px;
+    float: right;
+}
 
 
 
