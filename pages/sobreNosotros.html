@@ -67,28 +67,35 @@
 
                     <div class="galeria">
                         <div class="div1"> 
-                            <img src="../assets/img/imag/g3.jpg" alt="foto-galeria">
+                            <img src="../assets/img/imag/g3.jpg" alt="foto-galeria" onclick="abrirModal(this)">
                         </div>
                         <div class="div2"> 
-                            <img src="../assets/img/imag/g5.jpg" alt="foto-galeria">
+                            <img src="../assets/img/imag/g5.jpg" alt="foto-galeria" onclick="abrirModal(this)">
                         </div>
                         <div class="div3"> 
-                            <img src="../assets/img/imag/g7.jpg" alt="foto-galeria">
+                            <img src="../assets/img/imag/g7.jpg" alt="foto-galeria" onclick="abrirModal(this)">
                         </div>
                         <div class="div4"> 
-                            <img src="../assets/img/imag/g2.jpg" alt="foto-galeria">
+                            <img src="../assets/img/imag/g2.jpg" alt="foto-galeria" onclick="abrirModal(this)">
                         </div>
                         <div class="div5"> 
-                            <img src="../assets/img/imag/g8.jpg" alt="foto-galeria">
+                            <img src="../assets/img/imag/g8.jpg" alt="foto-galeria" onclick="abrirModal(this)">
                         </div>
                         <div class="div6"> 
-                            <img src="../assets/img/imag/g4.jpg" alt="foto-galeria">
+                            <img src="../assets/img/imag/g4.jpg" alt="foto-galeria" onclick="abrirModal(this)">
                         </div>
                     </div>
 
                     <p class="subtitulos"> Para ver mas seguinos en <a class="link-ig" href="" target="_blank"> Instagram </a></p>
 
                 </article>
+
+                <!-- MODAL -->
+                <div id="modal" class="modal" onclick="cerrarModal()">
+                    <span class="cerrar">&times;</span>
+                    <img class="modal-contenido" id="imgGrande">
+                </div>
+
             </div>
         </main>
 
@@ -129,5 +136,7 @@
                 </div>
             </div>
         </footer>
+
+        <script src="../js/sobreNosotros.js"></script>
     </body>
 </html>

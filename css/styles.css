@@ -435,6 +435,54 @@ footer{
 }
 
 
+/* --------------------------------------*/
+
+
+/* -------- PAG - Adicionales -------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -562,6 +610,56 @@ footer{
 
 
 /*--------------------------------------*/
+
+/* MODAL */
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 999; /* Sobre todo */
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.616); /* Fondo oscuro semi-transparente */
+}
+
+.modal-contenido {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);
+    border-radius: 4px;
+}
+
+.cerrar {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: #bbb;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------ PAG - Contacto -------- */
 
