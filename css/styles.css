@@ -239,6 +239,7 @@ footer{
     padding: 20px;
     background-color: lightgray;
     width: 100%;
+    border-radius: 30px;
 }
 
 .titl {
@@ -282,13 +283,156 @@ footer{
 
 
 
+/*--- Galerias de imagenes ---*/
+
+
+.galeria2 div{
+    position: relative;
+}
+
+.galeria2{
+    margin-top: 4.6875rem;
+    margin-bottom: 3.125rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap: 4.6875rem;
+    grid-row-gap: 3.125rem;
+}
+
+.imag-temat{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imag-temat:hover {
+    transform: scale(1.15); 
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.galeria2 div h3 {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.link-pijamadas{
+    text-decoration: none;
+    color:#2c2c2c
+}
 
 
 
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    perspective: 1000px;
+    margin-bottom: 100px; 
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    background-image: 
+        linear-gradient(
+            to top right, lightpink , lightblue
+        );
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s ease, z-index 0.5s ease;
+    transform: scale(0.8);
+    z-index: 1;
+    
+}
+
+.card.active {
+    transform: scale(1) translateY(-10px);
+    background-image: 
+        linear-gradient(
+            to bottom right, lightgreen , lightsalmon
+        );
+    z-index: 2;
+    
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.contenido h2{
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+.contenido h3{
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.contenido h4{
+    font-family: "Lato";
+    font-weight: 300;
+    font-style:initial;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.contenido ul li{
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 15px;
+    text-align: justify;
+    margin: 3px 10px 3px 10px;
+}
+
+.lista-items{
+    list-style-type: none;
+}
 
 
+.button-reserva a button {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin:5px;
+    padding: 7px;
+    border-radius: 15px;
+}
 
-
+.button-reserva{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
 
 
@@ -363,11 +507,18 @@ footer{
     margin: 30px 0px;
     padding: 10px;
     background-color: rgb(212, 226, 162);
+    border-radius: 1.875rem;
 }
 
 .video1{
     width: 18%;
     margin: 25px;
+}
+
+.link-ig{
+    color:rgb(214, 135, 148);
+    text-decoration: none;
+    font-weight: 500;   
 }
 
 
@@ -504,7 +655,6 @@ footer{
     margin-top: 10px;
     float: right;
 }
-
 
 
 
