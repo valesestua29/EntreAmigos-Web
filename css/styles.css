@@ -123,7 +123,6 @@ footer{
 }
 
 .imagen-principal{
-
     width: 100%;
     height: auto;
     background-position: center;
@@ -149,9 +148,9 @@ footer{
 }
 
 .contenedor1 h2 {
-    margin:10px 100px 20px 70px;
+    margin:10px 100px 20px 50px;
     color:#ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Lato";
     font-size: 24px;
     font-weight: 400;
     font-style: italic;
@@ -166,8 +165,9 @@ footer{
     font-family: "Lato", sans-serif;
     font-weight: 600;
     background-color: #FFFFFF;
-    padding: 15px;
+    padding: 15px 45px;
     cursor: pointer;
+    border-radius: 15px;
     
 }
 
@@ -202,6 +202,7 @@ footer{
     font-family: "Lato";
     font-size: 20px;
     font-weight: 300;
+    text-align: justify;
 }
 
 .contenedor2{
@@ -232,6 +233,7 @@ footer{
     font-size: 16px;
     font-weight: 400;
     margin-left: 10px;
+    text-align: justify;
 }
 
 .cont-lista {
@@ -243,6 +245,7 @@ footer{
     font-size: 16px;
     font-weight: 400;
     margin-left: 10px;
+    text-align: justify;
 }
 
 .cont-ubic{
@@ -266,6 +269,7 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    align-items: center;
 }
 
 .cont-ubic div ul {
@@ -277,18 +281,18 @@ footer{
     font-size: 16px;
     font-weight: 400;
     margin-left: 10px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center; 
 }
 
 .icon-mano{
     width: 30px;
+    margin-right: 10px;
 }
-
 
 
 /* ----- RESEÑAS ----- */
@@ -346,6 +350,7 @@ footer{
 
 .fecha-resen{
     font-family: "Lato";
+    font-style: italic;
     font-size: 12px;
     color: rgb(223, 223, 223);
 }
@@ -353,6 +358,7 @@ footer{
 .resen{
     font-family: "Lato";
     font-size: 14px;
+    text-align: justify;
 }
 
 @keyframes deslizar {
@@ -410,13 +416,10 @@ footer{
     text-align: center;
 }
 
-
 .link-pijamadas{
     text-decoration: none;
     color:#2c2c2c
 }
-
-
 
 .carousel {
     display: flex;
@@ -851,5 +854,262 @@ footer{
 
 
 
+/*------------------------------------------------------------------ */
 
+/* ------- PANTALLAS PARA CELULAR ---------------------*/
+
+@media (max-width: 425px) {
+
+    /* ----- HEADER ----- */
+
+    .logo1{
+        width: 75px;
+        margin: 5px 0px 0px 30px;
+    }
+
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        padding: 5px;
+        border: 0;
+        font-size: 20px;
+        background-color: transparent;
+    }
+
+    .abrir-menu{
+        margin-right: 35px;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem; 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff0dc;
+        padding: .625rem;
+        box-shadow: 0 0 0 1000vh rgba(0, 0, 0, 0.404);
+        z-index:5;
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .nav-bar li{
+        padding: 5px;
+        margin: 0px 0px 10px 0px;
+    }
+
+
+    /* ---- FOOTER ---- */
+
+    footer{
+        flex-direction: column;
+    }
+
+    .info-footer,
+    .redes-footer{
+        padding: 0.625rem;
+        margin: 10px 30px 0px 30px;
+    }
+    
+    .info-footer p{
+    font-size: 16px;
+    }
+    .icon-contac {
+    width:20px;
+    }
+
+    .redes-sociales{
+        flex-direction: row;
+        gap: 25px;
+    }
+    .icono-redes{
+    width:25px;
+    }
+    .info-footer div p{
+        font-size: 14px;
+    }
+
+
+    /* ----- PAG PRINCIPAL ------ */
+
+    .imagen-principal{
+        width: 100%;
+        height: 420px;            
+        object-fit: cover;        
+        object-position: center;  
+    }
+
+    .contenedor1 h1{
+        font-size: 25px;
+        margin:100px 70px 10px 30px;
+    }
+    .contenedor1 h2{
+        font-size: 15px;
+        margin:10px 70px 10px 33px;
+    }
+    .cont-button{
+    margin: 30px 20px 20px 35px;
+    }
+
+    .cont-button a button{
+        padding:10px 30px;
+    }
+
+    .cuerpo-pag{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+    }
+
+    .logo2{
+        width: 200px;
+        margin: 15px;
+    }
+
+    .cuerpo-pag h3{
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    .cuerpo-pag article p{
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .contenedor2{
+        border-radius: 15px;
+        padding: 5px;
+        flex-direction: column
+    }
+
+    .contenedor2 div{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .contenedor2 div h3 {
+        font-size: 20px;
+    }
+
+    .contenedor2 div p {
+        font-size: 14px;
+    }
+
+    .cont-lista {
+        margin: 10px;
+    }
+
+    .cont-lista ul li {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .titl {
+        font-size: 18px;
+    }
+
+    .cont-ubic div{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .cont-ubic div ul li {
+        font-size: 14px;
+    }
+
+    .mapa-ubic{
+        width: 250px;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .box-resenias{
+        margin: 10px;
+    }
+
+    .carrusel-wrapper {
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .contenedor-resen{
+        gap: 10px;
+    }
+
+    .card-resen{
+        flex: 0 0 200px; 
+        padding: 10px 15px;
+    }
+
+    .estrellas{
+        font-size: 15px;
+    }
+
+    .fecha-resen{
+        font-size: 10px;
+    }
+
+    .resen{
+        font-size: 12px;
+    }
+    
+
+    /* --------- PIJAMAS ------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 

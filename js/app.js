@@ -1,13 +1,19 @@
 // BOTON HAMBURGUESA // 
 
-const nav= document.querySelector("#nav");
-const abrir= document.querySelector("#abrir-menu");
-const cerrar= document.querySelector("#cerrar-menu");
+console.log("JS cargado");
 
-abrir.addEventListener("click", ()=> {
+
+// Seleccionar elementos
+const abrirMenu = document.getElementById("abrir-menu");
+const cerrarMenu = document.getElementById("cerrar-menu");
+const nav = document.getElementById("nav");
+
+// Evento para abrir el menú
+abrirMenu.addEventListener("click", () => {
     nav.classList.add("visible");
-})
+});
 
-cerrar.addEventListener("click", ()=>{
+// Evento para cerrar el menú
+cerrarMenu.addEventListener("click", () => {
     nav.classList.remove("visible");
-})
+});
