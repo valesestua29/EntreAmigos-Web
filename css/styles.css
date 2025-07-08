@@ -378,6 +378,36 @@ footer{
 /* ------ PAG - PIJAMAS --------- */
 
 
+.titulos-pijamadas h1{
+    font-family: "Lato";
+    font-size: 28px;
+    font-weight: 300;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulos-pijamadas h2{
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.cont-galeria2{
+    font-family: "Lato";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+
+    text-align: center;
+    line-height: 1.6em;
+    padding-top: 10px;
+    margin: 20px 10px 70px .625rem;
+}
 
 /*--- Galerias de imagenes ---*/
 
@@ -542,37 +572,41 @@ footer{
     margin-bottom: 50px;
 }
 
-.titulos{
+.informacion-nos h1{
     font-family: "Lato";
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 300;
     margin-left: 10px;
     text-align: center;
     margin-bottom: 20px;
-    
 }
 
-.subtitulos {
+.informacion-nos h2{
     font-family: "Lato";
     font-size: 24px;
     font-weight: 400;
     margin-left: 10px;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin: 50px;
 }
 
-.texto-gral{
+.informacion-nos p{
     font-family: "Lato";
-    font-weight: 300;
-    font-style: normal;
     font-size: 18px;
-
+    font-weight: 300;
+    margin-left: 10px;
     text-align: justify;
-    line-height: 1.6em;
-    padding-top: 10px;
-    margin: 20px 10px 70px .625rem;
+    margin-bottom: 20px;
+}
+
+.galeria-imagenes h2{
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 400;
     
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 70px;
 }
 
 .texto-video{
@@ -580,7 +614,6 @@ footer{
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
-
     text-align: justify;
     line-height: 1.6em;
     padding-top: 10px;
@@ -1072,16 +1105,20 @@ footer{
 
     /* --------- PIJAMAS ------------------ */
 
-    .titulos{
+    .titulos-pijamadas h1{
         font-size: 22px;
         margin: 15px 0px 10px 0px;
     }
 
-    .subtitulos{
+    .titulos-pijamadas h2{
         font-size: 16px;
         margin: 25px 0px 15px 0px;
     }
 
+    .cont-galeria2 p {
+        font-size: 16px;
+        
+    }
     .galeria2{
         margin: 20px 0px 10px 5px;
         grid-template-columns: repeat(2,1fr);
@@ -1147,12 +1184,57 @@ footer{
     }
 
 
+    /* ---- SOBRE NOSOTROS ----- */
+
+    .img-principal{
+        width: 100%;
+        height: 200px;            
+        object-fit: cover;        
+        object-position: center;  
+    }
+
+    .icon-titulo{
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .informacion-nos h1{
+        font-size: 24px;
+    }
+    .informacion-nos h2{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .informacion-nos p{
+        font-size: 16px;
+    }
+
+    .texto-video{
+        font-size: 14px;
+    }
+    .cont-video-texto{
+        flex-direction: column;
+    }
+
+    .video1{
+        width: 80%;
+        margin: 25px;
+    }
 
 
+    /*--- Galerias de imagenes ---*/
 
 
-
-
+    .galeria{
+        margin-top: 1.5625rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "div1 div1"
+        "div2 div3"
+        "div4 div3"
+        "div5 div6" ;
+    }
 
 
 

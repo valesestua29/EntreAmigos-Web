@@ -9,6 +9,7 @@
 
         <!-- Estilos CSS -->
         <link href="../css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     </head>
     <body>
         
@@ -16,8 +17,9 @@
             <a href="../index.html">
                 <img class="logo1" src="../assets/img/EntreAmigos/LogoEntreAmis555.png" alt="imagen-logo-EntreAmigos">
             </a>
-
-            <nav class="nav" id="nav"> 
+            <button id="abrir-menu"class="abrir-menu"> <i class="bi bi-list"></i>  </button>
+            <nav class="nav" id="nav">
+                <button id="cerrar-menu" class="cerrar-menu"> <i class="bi bi-x-lg"></i> </button>
                 <ul class="nav-bar">
                     <li class="opc"> <a href="./pijamadas.html"> Pijamadas</a> </li>
                     <li class="opc"> <a href="#"> Sobre nosotros</a> </li>
@@ -33,9 +35,9 @@
             <div class="cuerpo-pag">
                 <img class="icon-titulo" src="../assets/img/EntreAmigos/1.gif" alt="imagen-logo-entreamigos">
 
-                <div>
-                    <h1 class="titulos"> Sobre nosotros </h1>
-                    <p class="texto-gral"> Entre Amigos nació una tarde de juegos, mantas y muchas risas. Todo empezó cuando, armando una pijamada casera con carpas hechas de sábanas y almohadones, nos dimos cuenta de que no hay nada más mágico que una noche compartida entre amigos.<br>
+                <div class="informacion-nos">
+                    <h1> Sobre nosotros </h1>
+                    <p> Entre Amigos nació una tarde de juegos, mantas y muchas risas. Todo empezó cuando, armando una pijamada casera con carpas hechas de sábanas y almohadones, nos dimos cuenta de que no hay nada más mágico que una noche compartida entre amigos.<br>
                         ¿Y si llevábamos esa magia a muchas más casas? Así nació esta aventura. <br>
                         Nos inspira la imaginación desbordante de los chicos, los secretos susurrados con linterna, las guerras de almohadas y las historias inventadas bajo una carpa tipi. Queremos que cada pijamada sea mucho más que “quedarse a dormir”: que sea una experiencia inolvidable, divertida, cuidada y llena de detalles soñados.<br>
                         Diseñamos cada espacio como si fuera un pequeño mundo aparte, con luces, colores y sorpresas, donde los peques puedan jugar, reír y soñar. Y también pensamos en los adultos: nos encargamos de todo para que ustedes solo tengan que disfrutar (y sacar muchas fotos).<br>
@@ -45,7 +47,9 @@
             
 
                 <section>
-                    <h2 class="subtitulos"> Por que contratarnos?</h2>
+                    <div class="informacion-nos">
+                        <h2> Por que contratarnos?</h2>
+                    </div>
 
                     <div class="cont-video-texto">
                         <video class="video1" src="../assets/video/video-tipi.mp4"loop muted autoplay alt="video-armado-de-carpas">  </video>
@@ -62,9 +66,9 @@
                     </div>
                 </section>
 
-                <article> <!-- Galeria de imagenes -->
+                <article class="galeria-imagenes"> <!-- Galeria de imagenes -->
 
-                    <h2 class="subtitulos"> Nuestros trabajos </h2>
+                    <h2> Nuestros trabajos </h2>
 
                     <div class="galeria">
                         <div class="div1"> 
@@ -87,7 +91,7 @@
                         </div>
                     </div>
 
-                    <p class="subtitulos"> Para ver mas seguinos en <a class="link-ig" href="" target="_blank"> Instagram </a></p>
+                    <p> Para ver mas seguinos en <a class="link-ig" href="" target="_blank"> Instagram </a></p>
 
                 </article>
 
@@ -138,6 +142,7 @@
             </div>
         </footer>
 
+        <script src="../js/app.js"></script>
         <script src="../js/sobreNosotros.js"></script>
     </body>
 </html>
