@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="./assets/img/EntreAmigos/LogoEntreAmis1.png">
+        
         <title>Entre Amigos</title>
-
+        <link rel="icon" type="image/png" href="assets/img/EntreAmigos/LogoEntreAmis555.png">
+        
         <!-- Estilos CSS -->
         <link href="css/styles.css" rel="stylesheet">
 
@@ -17,10 +18,13 @@
         
         <header >
             <a href="index.html">
-                <img class="logo1" src="assets/img/EntreAmigos/LogoEntreAmis555.png" >
+                <img class="logo1" src="assets/img/EntreAmigos/LogoEntreAmis555.png" alt="imagen-logo-EntreAmigos">
             </a>
 
+            <button id="abrir-menu"class="abrir-menu"> <i class="bi bi-list"></i>  </button>
+
             <nav class="nav" id="nav"> 
+                <button id="cerrar-menu" class="cerrar-menu"> <i class="bi bi-x-lg"></i> </button>
                 <ul class="nav-bar">
                     <li class="opc"> <a href="./pages/pijamadas.html"> Pijamadas</a> </li>
                     <li class="opc"> <a href="./pages/sobreNosotros.html"> Sobre nosotros</a> </li>
@@ -32,7 +36,7 @@
         <main>
 
             <div class="cont-imagen-titulo">
-                <img class="imagen-principal" src="assets/img/imag/010.png">
+                <img class="imagen-principal" src="assets/img/imag/010.png" alt="imagen-principal-niños-sonrriendo">
 
                 <div class="contenedor1">
                     <h1> Hacemos realidad <br> la pijamada de tus sueños </h1>
@@ -46,7 +50,7 @@
 
             <section class="cuerpo-pag">
 
-                <img class="logo2" src="./assets/img/EntreAmigos/LogoEntreAmis.gif">
+                <img class="logo2" src="./assets/img/EntreAmigos/LogoEntreAmis.gif" alt="logo-2-entreamigos">
                 <h3> Pijamadas Tipi </h3> 
 
                 <article>
@@ -87,9 +91,9 @@
                     <p class="titl"> Zonas de servicios </p>
                     <div>
                         <ul>
-                            <li> <img src="assets/img/Icon-manos/2.png" class="icon-mano"> Sed blandit enim vitae velit maximus</li>
-                            <li> <img src="assets/img/Icon-manos/3.png" class="icon-mano"> Sed blandit enim vitae velit maximus</li>
-                            <li> <img src="assets/img/Icon-manos/4.png" class="icon-mano"> Sed blandit enim vitae velit maximus</li>
+                            <li> <img src="assets/img/Icon-manos/2.png" class="icon-mano" alt="icono-mano"> Zona Norte GBA <br> San isidro; Vicente Lopez; San Martin; San Fernando; Tigre </li>
+                            <li> <img src="assets/img/Icon-manos/3.png" class="icon-mano" alt="icono-mano"> Ciudad de Buenos Aires (CABA) <br> Devoto, Villa del Parque; Saavedra; Villa Urquiza; Villa Pueyrredon </li>
+                            <li> <img src="assets/img/Icon-manos/4.png" class="icon-mano" alt="icono-mano"> Zona Sur GBA <br> Adrogué; Avellaneda; Lomas de Zamora</li>
                         </ul>
                         
                         <!-- MAPS -->
@@ -98,25 +102,96 @@
                 </div>
 
 
+                <div class="box-resenias">
+                    <h2 class="titl"> Lo que dicen de nuestros trabajos</h2>
 
-                <div>
+                    <div class="carrusel-wrapper">
+                        
+                        <div class="contenedor-resen">
+                            <div class="card-resen">
+
+                                <div class="encabezado-resen">
+                                    <div class="estrellas"> ★★★★★ </div>
+                                    <span class="nombre-resen"> Maria Lopez </span>
+                                </div>    
+
+                                <div class="cuerpo-resen">
+                                    <p class="fecha-resen"> Febrero 2025</p>
+                                    <p class="resen">Una experiencia inolvidable. Las nenas estaban fascinadas con las carpas.</p>
+                                </div>
+                            </div>
+
+                            <div class="card-resen">
+
+                                <div class="encabezado-resen">
+                                    <div class="estrellas"> ★★★★ </div>
+                                    <span class="nombre-resen"> Luciana Perez </span>
+                                </div>    
+
+                                <div class="cuerpo-resen">
+                                    <p class="fecha-resen"> Septiembre 2024</p>
+                                    <p class="resen"> Todo impecable y súper prolijo. Gracias por hacer el cumple tan especial.</p>
+                                </div>
+                            </div>
 
 
+                            <div class="card-resen">
 
-                    
+                                <div class="encabezado-resen">
+                                    <div class="estrellas"> ★★★★★ </div>
+                                    <span class="nombre-resen"> Carla Martinez </span>
+                                </div>    
+
+                                <div class="cuerpo-resen">
+                                    <p class="fecha-resen"> Diciembre 2024</p>
+                                    <p class="resen"> Decoración hermosa, atención excelente. Lo recomiendo 100%.</p>
+                                </div>
+                            </div>
+
+                            <div class="card-resen">
+
+                                <div class="encabezado-resen">
+                                    <div class="estrellas"> ★★★★★ </div>
+                                    <span class="nombre-resen"> Sofia Gomez </span>
+                                </div>    
+
+                                <div class="cuerpo-resen">
+                                    <p class="fecha-resen"> Marzo de 2025</p>
+                                    <p class="resen"> Estefi es una genia, cuida todos los detalles. Nos encantó!</p>
+                                </div>
+                            </div>
 
 
+                            <div class="card-resen">
+
+                                <div class="encabezado-resen">
+                                    <div class="estrellas"> ★★★★ </div>
+                                    <span class="nombre-resen"> Valeria Rios </span>
+                                </div>    
+
+                                <div class="cuerpo-resen">
+                                    <p class="fecha-resen"> Octubre 2024 </p>
+                                    <p class="resen"> El armado fue rápido y todo quedó precioso. Volveremos a contratar. </p>
+                                </div>
+                            </div>
 
 
+                            <div class="card-resen">
 
+                                <div class="encabezado-resen">
+                                    <div class="estrellas"> ★★★★★ </div>
+                                    <span class="nombre-resen"> Florencia Diaz </span>
+                                </div>    
 
+                                <div class="cuerpo-resen">
+                                    <p class="fecha-resen"> Mayo 2025 </p>
+                                    <p class="resen"> Los juegos y detalles hicieron la diferencia. Súper recomendable. </p>
+                                </div>
+                            </div>
 
-
-
-
-
+                        </div>
+                    </div>    
                 </div>
-
             </section>
         </main>
         
@@ -125,39 +200,41 @@
             <div class="info-footer">
                 <p> Contactanos </p>
                 <div>
-                    <img class="icon-contac" src="assets/img/icon-redes/1.png">
-                    <p> ejemplo@email.com </p>
+                    <img class="icon-contac" src="assets/img/icon-redes/1.png" alt="icono-email">
+                    <p> entreamigos@pijamadas.com </p>
                 </div>
 
                 <div>
-                    <img class="icon-contac" src="assets/img/icon-redes/2.png">
-                    <p> +54 11 0000 0000 </p>
+                    <img class="icon-contac" src="assets/img/icon-redes/2.png" alt="icono-celular">
+                    <p> +54 11 2458 1122 </p>
                 </div>
 
                 <div>
-                    <img class="icon-contac" src="assets/img/icon-redes/3.png">
-                    <p> 011 4747 6262 </p>
+                    <img class="icon-contac" src="assets/img/icon-redes/3.png" alt="icono-telefono">
+                    <p> 4700 4511 </p>
                 </div>
 
             </div>
 
             <div>
                 <!-- Imagen del logo-->
-                <img class="logo3" src="assets/img/EntreAmigos/LogoEntreAmis.png">
+                <img class="logo3" src="assets/img/EntreAmigos/LogoEntreAmis.png" alt="logo-entreamigos">
             </div>
 
 
             <div class="redes-footer">
                 <div>
                     <ul class="redes-sociales"> 
-                        <li> <a href="#" target="_blank"> <img class="icono-redes" src="assets/img/icon-redes/4.png">  </a> </li>
-                        <li> <a href="#" target="_blank"> <img class="icono-redes" src="assets/img/icon-redes/5.png">  </a> </li>
-                        <li> <a href="#" target="_blank"> <img class="icono-redes" src="assets/img/icon-redes/6.png">  </a> </li>
-                        <li> <a href="#" target="_blank"> <img class="icono-redes" src="assets/img/icon-redes/7.png">  </a> </li>
+                        <li> <a href="#" target="_blank"> <img class="icono-redes" src="assets/img/icon-redes/4.png" alt="icono-redes-facebook">  </a> </li>
+                        <li> <a href="#" target="_blank"> <img class="icono-redes" src="assets/img/icon-redes/5.png" alt="icono-redes-instagram">  </a> </li>
+                        <li> <a href="#" target="_blank"> <img class="icono-redes" src="assets/img/icon-redes/6.png" alt="icono-redes-tiktok">  </a> </li>
+                        <li> <a href="#" target="_blank"> <img class="icono-redes" src="assets/img/icon-redes/7.png" alt="icono-redes-linkedin">  </a> </li>
                     </ul>
                 </div>
             </div>
         </footer>
+
+        <script src="js/app.js"></script>
     </body>
 
 </html>
