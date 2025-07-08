@@ -159,6 +159,7 @@ footer{
     font-weight: 600;
     background-color: #FFFFFF;
     padding: 15px;
+    cursor: pointer;
     
 }
 
@@ -435,61 +436,6 @@ footer{
 }
 
 
-/* --------------------------------------*/
-
-
-/* -------- PAG - Adicionales -------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ------ PAG - SobreNosotros ------- */
@@ -755,6 +701,62 @@ footer{
 }
 
 
+
+
+
+
+
+
+
+/* ---------------- PAGINAS DE PIJAMADAS ----------------- */
+
+.contenedor-principal{
+    margin: 20px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-pijamadas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;              
+}
+
+.contenedor .text-pijamadas {
+    width: 50%;
+}
+
+.img-pijamadas{
+    width: 35%;
+    border-radius: 10px;
+}
+
+.galeria-zoom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.galeria-zoom img {
+    width: 250px; 
+    height: 300px;
+    object-fit: cover; /* Recorta para que llene el espacio sin deformarse */
+    display: block;
+    transition: transform 0.4s ease; 
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.541);
+}
+
+.galeria-zoom img:hover {
+    transform: scale(1.10); 
+}
 
 
 
