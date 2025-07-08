@@ -1072,13 +1072,79 @@ footer{
 
     /* --------- PIJAMAS ------------------ */
 
+    .titulos{
+        font-size: 22px;
+        margin: 15px 0px 10px 0px;
+    }
 
+    .subtitulos{
+        font-size: 16px;
+        margin: 25px 0px 15px 0px;
+    }
 
+    .galeria2{
+        margin: 20px 0px 10px 5px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-column-gap: 1.25rem;
+        grid-row-gap: 1.875rem;
+    }
 
+    .imag-temat{
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+    }
 
+    .galeria2 div h3 {
+        font-family: "Lato";
+        font-size: 14px;
+    }
 
+    
 
+    .cards{
+        gap: 20px;
+        flex-direction: column;
+    }
 
+    .card{
+        width: 250px;
+        height: 400px;
+        transform: none;
+    }
+
+    .card.active{
+        transform: none;
+        background-image: 
+            linear-gradient(
+                to top right, lightpink , lightblue
+        );
+    }
+
+    .contenido{
+        margin: 5px;
+    }
+
+    .contenido h2{
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .contenido h3{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .contenido h4{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .contenido ul li{
+        font-size: 14px;
+        margin: 3px 10px 3px 10px;
+    }
 
 
 
