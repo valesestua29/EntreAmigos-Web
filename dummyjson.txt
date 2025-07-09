@@ -1,0 +1,35 @@
+Documentacion API: https://dummyjson.com/docs/products
+
+Lista de categorias que se pueden usar con la API dummyjson
+
+[
+    "beauty",
+    "fragances",
+    "furniture",
+    "groceries",
+    "home-decoration",
+    "kitchen-accessories",
+    "laptops",
+    "mens-shirts",
+    "mens-shoes",
+    "mens.watches",
+    "mobile-accessories",
+    "motorcycle",
+    "skin-care",
+    "smartphones",
+    "sports-accessories",
+    "sunglasses",
+    "tablets",
+    "tops",
+    "vehicle",
+    "womens-bags",
+    "womens-dresses",
+    "womens-jewellery",
+    "womens-shoes",
+    "womens-watches"
+]
+
+
+Todas las categorias tienen alrededor de 5 o 6 productos, excepto las siguientes que tienen muchos mas:
+smartphones, kitchen-accessories, groceries, mobile-accessories, sports-accessories
+

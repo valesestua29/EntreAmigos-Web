@@ -1,0 +1,113 @@
+.info-pag h1{
+    font-family: "Lato";
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-pag h2{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+
+/* ------------------------------------------------------*/
+
+
+/* Contenedor general: centrado y con separación */
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+}
+
+
+/* -----------------------------------------------------------*/
+
+
+.tarjeta-producto {
+    background-image: 
+        linear-gradient(
+            to top right, lightpink , lightblue
+        );
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 220px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.tarjeta-producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    background-image: 
+        linear-gradient(
+            to bottom right, lightgreen , lightsalmon
+        );
+}
+
+.tarjeta-producto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.tarjeta-producto h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    color: #444;
+}
+
+
+.tarjeta-producto p {
+    font-size: 1rem;
+    color: #222222;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.tarjeta-producto button {
+    background-color: #fcecdb;
+    color: #333;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.tarjeta-producto button:hover {
+    background-color: #806f5fb4;
+}
+
+
+@media (max-width: 768px) {
+    .contenedor-productos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 435px) {
+    .contenedor-productos {
+        grid-template-columns: 1fr;
+    }
+}
+
+

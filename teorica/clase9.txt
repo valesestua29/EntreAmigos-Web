@@ -1,0 +1,74 @@
+--------- 9. Introduccion a JavaScript ------------
+
+
+JavaScript es el cerebro que permite que las cosas interactúen y funcionen.
+
+Caracteristicas ----
+
+    Lenguaje del lado del cliente: se ejecuta directamente en el navegador del usuario
+    Orientado a objetos: permite trabajar con objetos y prototipos
+    Tipado debil: no requiere especificar el tipo de dato al declarar variables
+    Interpretado: el navegador ejecuta el codigo sin necesidad de compilacion previa
+
+
+Incorporacion de JavaScript en HTML
+
+    Archivo externo: <script src="mi-script.js"></script> 
+        -- ANTES DE CERRAR EL BODY --
+
+
+Variables y Constantes en JavaScript ----
+
+    var: declaracion tradicional, con problemas de alcance
+    let: opcion moderna y segura para variables que cambian
+    const: para valores que no cambian
+
+Tipos de datos en JavaScript ---
+
+    Undefined: cuando una variable no tiene valores
+    Boolean: verdadero o falso
+    Number: numeros enteros o decimales
+    String: cadenas de texto
+    Null: ausencia intencionada de valores
+    BigInt: para trabajar con numeros grandes
+    Symbol: para crear valores unicos
+
+
+Objeto number ----
+
+    Para trabajar con numeros de dos maneras
+
+    Literales: let numero = 123;
+    Constructor Number() = let numObjeto = new Number(123);
+
+
+Operadores aritmeticos y de asignacion ----
+
+    Suma (+)  = suma numeros o concatena strings
+    Resta (-) = resta dos numeros
+    Multp (*) = multiplica dos numeros
+    Div (/)   = divide dos numeros
+    Modul (%) = da el resto de una division
+    Incr (++) = suma de a 1
+    Decr (--) = resta de a 1
+
+
+Concatenacion de cadenas ---
+
+    Uso del operador + : "HOLA" + "Mundo!"
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

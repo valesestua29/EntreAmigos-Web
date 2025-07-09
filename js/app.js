@@ -17,3 +17,4 @@ abrirMenu.addEventListener("click", () => {
 cerrarMenu.addEventListener("click", () => {
     nav.classList.remove("visible");
 });
+
