@@ -724,20 +724,12 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
 /* ------ PAG - Contacto -------- */
 
 .contenedor-icon{
     display: flex;
     flex-direction: row;   
-    justify-content: space-between;     
+    justify-content: center;     
     align-items: center;
     margin-top: 45px;
     margin-bottom: 4.6875rem;
@@ -754,7 +746,6 @@ footer{
 .icono-redes2{
     width: 75px;
 }
-
 
 .texto-form{
     font-family: "Lato";
@@ -797,8 +788,7 @@ footer{
     width: 450px;
     height: 150px;
     padding: 15px;
-    border-radius: 30px 30px 30px 30px;
-
+    border-radius: 30px;
     margin-top: 10px;
 }
 
@@ -1237,9 +1227,49 @@ footer{
     }
 
 
+    /* ------- CONTACTO ----------- */
 
+    .section-contacto{
+        margin-top: 30px;
+    }
+    .icon-redes-contacto{
+        gap:20px;
+    }
 
+    .icono-redes2{
+        width: 40px;
+    }
 
+    .formulario{
+        width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .texto-form{
+        font-size: 16px;
+    }
+
+    .contenedor-datos-form{
+        margin: 5px;
+    }
+    
+    .formulario p label input{
+        width: 190px;
+    }
+
+    .formulario p label textarea{
+        width: 350px;
+        border-radius: 15px;
+    }
+
+    .caja-comentario{
+        margin:5px;
+    }
+
+    .boton-enviar {
+        margin-right: 5px;
+        border-radius: 30px;
+    }
 
 
 
