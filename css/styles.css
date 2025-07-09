@@ -897,14 +897,14 @@ footer{
 
 /*------------------------------------------------------------------ */
 
-/* ------- PANTALLAS PARA CELULAR ---------------------*/
+/* ------- PANTALLAS PARA TABLETS ---------------------*/
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
 
-    /* ----- HEADER ----- */
+    /* ---- HEADER ---- */
 
     .logo1{
-        width: 75px;
+        width: 120px;
         margin: 5px 0px 0px 30px;
     }
 
@@ -955,11 +955,9 @@ footer{
     }
 
 
+
     /* ---- FOOTER ---- */
 
-    footer{
-        flex-direction: column;
-    }
 
     .info-footer,
     .redes-footer{
@@ -996,6 +994,200 @@ footer{
     }
 
     .contenedor1 h1{
+        font-size: 24px;
+        margin:100px 70px 10px 30px;
+    }
+    .contenedor1 h2{
+        font-size: 20px;
+        margin:10px 70px 10px 33px;
+    }
+
+    .cont-button{
+    margin: 30px 20px 20px 35px;
+    }
+
+    .logo2{
+        width: 250px;
+        margin: 40px;
+    }
+
+    .cuerpo-pag h3{
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    .cuerpo-pag article p{
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .contenedor2{
+        border-radius: 15px;
+        padding: 5px;
+        flex-direction: column
+    }
+
+    .contenedor2 div{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .contenedor2 div h3 {
+        font-size: 22px;
+    }
+
+    .contenedor2 div p {
+        font-size: 16px;
+    }
+
+    .cont-lista {
+        margin: 10px;
+    }
+
+    .cont-lista ul li {
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .titl {
+        font-size: 22px;
+    }
+
+    .cont-ubic div{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .mapa-ubic{
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .galeria2{
+        margin: 20px 0px 10px 5px;
+        grid-column-gap: 50px;
+        grid-row-gap: 1.875rem;
+    }
+
+    .imag-temat{
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .cards{
+        gap: 20px;
+    }
+
+    .card{
+        width: 220px;
+        height: 400px;
+    }
+
+    .contenido h2{
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .contenido h3{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .contenido h4{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .contenido ul li{
+        font-size: 12px;
+        margin: 3px 10px 3px 10px;
+    }
+
+
+    /* ---- SOBRE NOSOTROS ----- */
+
+    .texto-video{
+        font-size: 14px;
+    }
+    .cont-video-texto{
+        flex-direction: column;
+    }
+
+    .video1{
+        width: 90%;
+        margin: 25px;
+    }
+
+    /*--- Galerias de imagenes ---*/
+
+    .galeria{
+        margin-top: 1.5625rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "div1 div1"
+        "div2 div3"
+        "div4 div3"
+        "div5 div6" ;
+    }
+
+
+
+    /* ------- CONTACTO ----------- */
+
+    .icon-redes-contacto{
+        gap:20px;
+    }
+
+    .icono-redes2{
+        width: 60px;
+    }
+
+    /* ----- PAGES DE TIPOS DE PIJAMADAS ----- */
+
+    .contenedor-principal{
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 10px;
+    }
+
+    
+
+    .galeria-zoom img{
+        width: 200px;
+        height: 250px;
+    }
+
+}
+
+
+/* ------- PANTALLAS PARA CELULAR ---------------------*/
+
+@media (max-width: 425px) {
+
+    /* ----- HEADER ----- */
+
+    .logo1{
+        width: 75px;
+        margin: 5px 0px 0px 30px;
+    }
+
+
+
+    /* ---- FOOTER ---- */
+
+    footer{
+        flex-direction: column;
+    }
+
+
+
+    /* ----- PAG PRINCIPAL ------ */
+
+    .contenedor1 h1{
         font-size: 25px;
         margin:100px 70px 10px 30px;
     }
@@ -1019,23 +1211,11 @@ footer{
 
     .logo2{
         width: 200px;
-        margin: 40px;
-    }
-
-    .cuerpo-pag h3{
-        margin: 10px;
-        font-size: 25px;
     }
 
     .cuerpo-pag article p{
         margin: 10px;
         font-size: 15px;
-    }
-
-    .contenedor2{
-        border-radius: 15px;
-        padding: 5px;
-        flex-direction: column
     }
 
     .contenedor2 div{
@@ -1051,23 +1231,12 @@ footer{
         font-size: 14px;
     }
 
-    .cont-lista {
-        margin: 10px;
-    }
-
     .cont-lista ul li {
-        font-size: 14px;
         margin-left: 10px;
     }
 
     .titl {
         font-size: 18px;
-    }
-
-    .cont-ubic div{
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
     }
 
     .cont-ubic div ul li {
@@ -1077,7 +1246,6 @@ footer{
     .mapa-ubic{
         width: 250px;
         height: 150px;
-        border-radius: 10px;
     }
 
     .box-resenias{
@@ -1124,8 +1292,7 @@ footer{
     }
 
     .cont-galeria2 p {
-        font-size: 16px;
-        
+        font-size: 16px;  
     }
     .galeria2{
         margin: 20px 0px 10px 5px;
@@ -1135,21 +1302,12 @@ footer{
         grid-row-gap: 1.875rem;
     }
 
-    .imag-temat{
-        border-radius: 100%;
-        width: 100px;
-        height: 100px;
-    }
-
     .galeria2 div h3 {
         font-family: "Lato";
         font-size: 14px;
     }
 
-    
-
     .cards{
-        gap: 20px;
         flex-direction: column;
     }
 
@@ -1171,25 +1329,6 @@ footer{
         margin: 5px;
     }
 
-    .contenido h2{
-        font-size: 20px;
-        margin: 5px;
-    }
-
-    .contenido h3{
-        font-size: 15px;
-        margin: 10px;
-    }
-
-    .contenido h4{
-        font-size: 15px;
-        margin: 10px;
-    }
-
-    .contenido ul li{
-        font-size: 14px;
-        margin: 3px 10px 3px 10px;
-    }
 
 
     /* ---- SOBRE NOSOTROS ----- */
@@ -1217,31 +1356,9 @@ footer{
         font-size: 16px;
     }
 
-    .texto-video{
-        font-size: 14px;
-    }
-    .cont-video-texto{
-        flex-direction: column;
-    }
-
     .video1{
         width: 80%;
         margin: 25px;
-    }
-
-
-    /*--- Galerias de imagenes ---*/
-
-
-    .galeria{
-        margin-top: 1.5625rem;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(4,1fr);
-        grid-template-areas: 
-        "div1 div1"
-        "div2 div3"
-        "div4 div3"
-        "div5 div6" ;
     }
 
 
@@ -1250,10 +1367,7 @@ footer{
     .section-contacto{
         margin-top: 30px;
     }
-    .icon-redes-contacto{
-        gap:20px;
-    }
-
+    
     .icono-redes2{
         width: 40px;
     }
@@ -1295,7 +1409,6 @@ footer{
     .contenedor-principal{
         margin-left: 10px;
         margin-right: 10px;
-        padding: 10px;
     }
 
     .img-pijamadas{
@@ -1319,16 +1432,6 @@ footer{
         width: 100px;
         height: 150px;
     }
-
-
-
-
-
-
-
-
-
-
 
 }
 
