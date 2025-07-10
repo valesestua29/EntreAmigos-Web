@@ -9,7 +9,7 @@ Este proyecto se desarrollo como parte de las prácticas de front-end de Talento
 
 ## 🧩 Descripción
 
-Este sitio web se está estructurando para ofrecer una experiencia de usuario fluida y adaptativa. Incluyendo diversas secciones que muestren el uso de:
+Este sitio web se está estructuro para ofrecer una experiencia de usuario fluida y adaptativa. Incluyendo diversas secciones que muestren el uso de:
 
 - **HTML5** para la estructura semántica del contenido.
 - **CSS3** para estilos visuales y diseño responsivo.
@@ -27,12 +27,8 @@ Este sitio web se está estructurando para ofrecer una experiencia de usuario fl
     │ └── carrito.css
     │ └── styles.css
     ├── js/
-    │ └── adicionales.js
     │ └── app.js
-    │ └── carrito.js
-    │ └── contacto.js
-    │ └── pijamandas.js
-    │ └── sobreNosotros.js
+    │ └── [archivos interactivos y funcionales]
     ├── pages/
     │ └── [páginas adicionales]
     ├── Teorica/
