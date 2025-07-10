@@ -1,7 +1,11 @@
-# FrontEndTT-web
+# Entre Amigos - web 
 
 ¡Bienvenido al repositorio **EntreAmigos-web**!  
-Este proyecto se esta desarrollado como parte de prácticas de front-end de TalentoTech, utilizando tecnologías fundamentales como HTML, CSS y JavaScript. El objetivo principal es aplicar y demostrar habilidades en diseño responsivo y animaciones, creando interfaces de usuario atractivas y funcionales.
+Este proyecto se desarrollo como parte de las prácticas de front-end de TalentoTech, utilizando tecnologías fundamentales como HTML, CSS y JavaScript. El objetivo principal es aplicar y demostrar habilidades en diseño responsivo y animaciones, creando interfaces de usuario atractivas y funcionales.
+
+## 🚀 Visualización en Vivo
+
+👉 [Ver la página desplegada](https://valesestua29.github.io/EntreAmigos-Web/)
 
 ## 🧩 Descripción
 
@@ -13,12 +17,22 @@ Este sitio web se está estructurando para ofrecer una experiencia de usuario fl
 
 ## 📁 Estructura del Proyecto
 
-    FrontEndTT-web/
+    EntreAmigos-web/
     ├── index.html
-    ├── CSS/
-    │ └── styles.css
-    ├── Assets/
+    ├── assets/
     │ └── img/
+    │ └── video/
+    ├── css/
+    │ └── adicionales.css
+    │ └── carrito.css
+    │ └── styles.css
+    ├── js/
+    │ └── adicionales.js
+    │ └── app.js
+    │ └── carrito.js
+    │ └── contacto.js
+    │ └── pijamandas.js
+    │ └── sobreNosotros.js
     ├── pages/
     │ └── [páginas adicionales]
     ├── Teorica/
@@ -26,22 +40,31 @@ Este sitio web se está estructurando para ofrecer una experiencia de usuario fl
     └── README.md
 
 - `index.html`: Página principal del sitio web.
-- `CSS/`: Contiene los archivos de estilos.
-- `Assets/img/`: Carpeta con imágenes utilizadas en el sitio.
+- `assets/img/`: Carpeta con imágenes utilizadas en el sitio.
+- `css/`: Contiene los archivos de estilos.
+- `js/`: Contiene los archivos encargados de agregar interactividad y funcionalidad dinámica.
 - `pages/`: Páginas adicionales del sitio.
-- `Teorica/`: Material teórico o documentación complementaria.
+- `teorica/`: Material teórico o documentación complementaria.
 
 ## 🚀 Características
 
-- Diseño responsivo que se adapta a diferentes tamaños de pantalla.
-- Animaciones y transiciones para mejorar la experiencia del usuario.
-- Código limpio y bien estructurado, facilitando su mantenimiento y escalabilidad.
+- 🎨 Diseño responsivo adaptable a distintos dispositivos.
+- ✨ Animaciones y transiciones CSS.
+- ⚡ Interactividad mediante JavaScript.
+- 🧹 Código limpio y organizado.
 
 ## 🛠️ Tecnologías Utilizadas
 
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+
+
+## 📄 Licencia
+
+Este proyecto utiliza la licencia MIT.
+
+---
 
 ## 🙋‍♀️ Autora
 
